@@ -18,7 +18,7 @@ Additional coursework in Networking & Cybersecurity and Advanced Software Develo
 
 ## Featured Projects
 
-### [ApexOmni Daily Trading Bot](https://github.com/Bruce188/apex-omni-daily-trader)
+### [ApexOmni Daily Trading Bot](https://github.com/Bruce188/apex_omni_daily_trader)
 Automated trading bot for ApexOmni staking optimization
 - Auto-selects cheapest tradeable symbol based on balance
 - Docker deployment with 24/7 daemon mode
