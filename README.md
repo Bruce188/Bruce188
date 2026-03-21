@@ -2,7 +2,7 @@
 
 **Student** at Odisee University College
 
-Specializing in **Data & AI**, **System & Business Analysis**, and **System Administration**  
+Specializing in **Data & AI**, **System & Business Analysis**, and **System Administration**
 Additional coursework in Networking & Cybersecurity and Advanced Software Development
 
 ## Certifications
@@ -11,12 +11,28 @@ Additional coursework in Networking & Cybersecurity and Advanced Software Develo
 
 ## Technologies & Tools
 
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/-.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/-ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL Server](https://img.shields.io/badge/-SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/-EF_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![SignalR](https://img.shields.io/badge/-SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ## Featured Projects
+
+### [FundingRateArb](https://github.com/Bruce188/FundingRateArb)
+Automated funding rate arbitrage bot for perpetual futures — .NET 8, Clean Architecture
+- Monitors funding rate differentials across DEXs (Lighter, Aster) and CEXs (HyperLiquid)
+- Real-time dashboard with SignalR WebSocket updates and KPI tracking
+- Polly resilience pipelines, position health monitoring, and emergency close
+- CI/CD with GitHub Actions, Docker multi-stage builds, and Azure deployment via OIDC
+- Unit, integration, and E2E tests (xUnit, Playwright)
 
 ### [ApexOmni Daily Trading Bot](https://github.com/Bruce188/apex_omni_daily_trader)
 Automated trading bot for ApexOmni staking optimization
