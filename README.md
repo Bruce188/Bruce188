@@ -20,9 +20,13 @@ Additional coursework in Networking & Cybersecurity and Advanced Software Develo
 ![SignalR](https://img.shields.io/badge/-SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Web3](https://img.shields.io/badge/-Web3.py-F16822?style=flat-square&logo=web3dotjs&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![xUnit](https://img.shields.io/badge/-xUnit-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 
 ## Featured Projects
 
@@ -39,7 +43,7 @@ Automated trading bot for ApexOmni staking optimization
 - Auto-selects cheapest tradeable symbol based on balance
 - Docker deployment with 24/7 daemon mode
 - Circuit breaker protection and comprehensive safety features
-- 391 tests with full coverage
+- 210 tests across unit, integration, and security suites
 
 ## Experience
 
