@@ -27,6 +27,9 @@ Additional coursework in Networking & Cybersecurity and Advanced Software Develo
 ![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![xUnit](https://img.shields.io/badge/-xUnit-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/-Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
 
 ## Featured Projects
 
@@ -44,6 +47,14 @@ Automated trading bot for ApexOmni staking optimization
 - Docker deployment with 24/7 daemon mode
 - Circuit breaker protection and comprehensive safety features
 - 210 tests across unit, integration, and security suites
+
+### [hsnotes](https://github.com/Bruce188/hsnotes)
+High-security Android notes app — Kotlin + Compose, defense-in-depth at rest
+- Argon2id KDF (RFC 9106, calibrated per device) → Keystore-bound DEK wrap → SQLCipher 4.6.1 encrypted DB → Tink AEAD prefs
+- 4-level wipe ladder (lock / soft / crypto-erase / nuclear), panic PIN, dead-man HMAC attested clock
+- Encrypted backup envelope: HSBK magic + Argon2id + AES/GCM + 4 KiB padding (size-blind to note count)
+- FLAG_SECURE recents blanking, CharArray passphrase hygiene, Detekt-enforced ban on `android.util.Log`
+- Anti-oracle UI: collapses all auth failures to one indistinguishable error
 
 ## Experience
 
