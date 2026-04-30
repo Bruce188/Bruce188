@@ -48,6 +48,16 @@ Automated trading bot for ApexOmni staking optimization
 - Circuit breaker protection and comprehensive safety features
 - 210 tests across unit, integration, and security suites
 
+### [Castellum](https://github.com/Bruce188/castellum)
+NATO-track network topology and vulnerability mapper — Spring Boot 3.5 / Java 21 (virtual threads), React 19 + Vite + TypeScript
+- Active nmap scanning (argv-only, injection-hardened) + passive pcap4j/ARP/mDNS/LLDP discovery
+- OT/ICS read-only fingerprinting (Modbus/TCP, DNP3, S7comm, BACnet/IP) with function-code whitelist
+- Threat-intel pipeline: NVD mirror (~250k CVEs), EPSS daily, CISA KEV → composite CVSS×EPSS×KEV×criticality risk score
+- JGraphT attack-graph shortest path with ATT&CK technique edge annotation
+- STIX 2.1 bundle export, TAXII 2.1 + MISP push (NCIRC-compatible)
+- JWT HS256 + BCrypt-12, append-only audit log, distroless runtime, CAP_NET_RAW only (no `--privileged`)
+- NIST 800-53 control mapping (AC/AU/CM/IA/RA/SC/SI/SR), AAP-31 vocabulary cross-walk
+
 ### [hsnotes](https://github.com/Bruce188/hsnotes)
 High-security Android notes app — Kotlin + Compose, defense-in-depth at rest
 - Argon2id KDF (RFC 9106, calibrated per device) → Keystore-bound DEK wrap → SQLCipher 4.6.1 encrypted DB → Tink AEAD prefs
