@@ -46,14 +46,13 @@ Additional coursework in Networking & Cybersecurity and Advanced Software Develo
 
 ## Featured Projects
 
-### [debouw](https://github.com/Bruce188/debouw)
-Multi-source data-ingestion project: Belgian construction permit risk monitoring prototype — Python 3.12 (uv), Pydantic v2, SQLAlchemy 2.0 async, LanceDB, Streamlit
-- Multi-source ingestion pipeline: Gent open data, Brussels CoBAT, Vlaanderen Inzageloket (Playwright headed Chromium for Anubis-protected pages), Geopunt spatial overlays, RvVb precedent corpus
-- Risk engine combining deterministic rules with Claude Sonnet narrator and RvVb precedent retrieval over LanceDB (OpenAI text-embedding-3-large)
-- Geopunt spatial overlays, Lambert-72 geometry, IIOA/MER heuristics, PDF feature extraction (pdfplumber)
-- structlog JSON-in-prod logging, alembic migrations, SQLite WAL, tenacity retry + circuit-breaker, httpx + crawl4ai HTTP stack
-- GDPR posture: salted-hash PII, identified User-Agent, polite per-source rates, schema-drift lock tests
-- 314 tests · 80%+ coverage · pipeline-driven workflow (analyze → plan → implement → review → merge)
+### [FundingRateArb](https://github.com/Bruce188/FundingRateArb)
+Automated funding rate arbitrage bot for perpetual futures — .NET 8, Clean Architecture
+- Monitors funding rate differentials across DEXs (Lighter, Aster) and CEXs (HyperLiquid)
+- Real-time dashboard with SignalR WebSocket updates and KPI tracking
+- Polly resilience pipelines, position health monitoring, and emergency close
+- CI/CD with GitHub Actions, Docker multi-stage builds, and Azure deployment via OIDC
+- Unit, integration, and E2E tests (xUnit, Playwright)
 
 ### [Castellum](https://github.com/Bruce188/castellum)
 NATO-track network topology and vulnerability mapper — Spring Boot 3.5 / Java 21 (virtual threads), React 19 + Vite + TypeScript
@@ -65,13 +64,14 @@ NATO-track network topology and vulnerability mapper — Spring Boot 3.5 / Java 
 - JWT HS256 + BCrypt-12, append-only audit log, distroless runtime, CAP_NET_RAW only (no `--privileged`)
 - NIST 800-53 control mapping (AC/AU/CM/IA/RA/SC/SI/SR), AAP-31 vocabulary cross-walk
 
-### [FundingRateArb](https://github.com/Bruce188/FundingRateArb)
-Automated funding rate arbitrage bot for perpetual futures — .NET 8, Clean Architecture
-- Monitors funding rate differentials across DEXs (Lighter, Aster) and CEXs (HyperLiquid)
-- Real-time dashboard with SignalR WebSocket updates and KPI tracking
-- Polly resilience pipelines, position health monitoring, and emergency close
-- CI/CD with GitHub Actions, Docker multi-stage builds, and Azure deployment via OIDC
-- Unit, integration, and E2E tests (xUnit, Playwright)
+### [debouw](https://github.com/Bruce188/debouw)
+Multi-source data-ingestion project: Belgian construction permit risk monitoring prototype — Python 3.12 (uv), Pydantic v2, SQLAlchemy 2.0 async, LanceDB, Streamlit
+- Multi-source ingestion pipeline: Gent open data, Brussels CoBAT, Vlaanderen Inzageloket (Playwright headed Chromium for Anubis-protected pages), Geopunt spatial overlays, RvVb precedent corpus
+- Risk engine combining deterministic rules with Claude Sonnet narrator and RvVb precedent retrieval over LanceDB (OpenAI text-embedding-3-large)
+- Geopunt spatial overlays, Lambert-72 geometry, IIOA/MER heuristics, PDF feature extraction (pdfplumber)
+- structlog JSON-in-prod logging, alembic migrations, SQLite WAL, tenacity retry + circuit-breaker, httpx + crawl4ai HTTP stack
+- GDPR posture: salted-hash PII, identified User-Agent, polite per-source rates, schema-drift lock tests
+- 314 tests · 80%+ coverage · pipeline-driven workflow (analyze → plan → implement → review → merge)
 
 ### [hsnotes](https://github.com/Bruce188/hsnotes)
 High-security Android notes app — Kotlin + Compose, defense-in-depth at rest
