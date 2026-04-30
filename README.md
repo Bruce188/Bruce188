@@ -35,6 +35,14 @@ Additional coursework in Networking & Cybersecurity and Advanced Software Develo
 ![React](https://img.shields.io/badge/-React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Pydantic](https://img.shields.io/badge/-Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![LanceDB](https://img.shields.io/badge/-LanceDB-1E40AF?style=flat-square&logoColor=white)
+![Anthropic](https://img.shields.io/badge/-Anthropic-D4A27A?style=flat-square&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![uv](https://img.shields.io/badge/-uv-DE5FE9?style=flat-square&logoColor=white)
 
 ## Featured Projects
 
@@ -72,8 +80,8 @@ High-security Android notes app — Kotlin + Compose, defense-in-depth at rest
 - Anti-oracle UI: collapses all auth failures to one indistinguishable error
 
 ### [debouw](https://github.com/Bruce188/debouw)
-Belgian construction permit risk monitoring prototype — Python 3.12 (uv), Pydantic v2, SQLAlchemy 2.0 async, LanceDB, Streamlit
-- Multi-source ingestion: Gent open data, Brussels CoBAT, Vlaanderen Inzageloket (Playwright headed Chromium for Anubis-protected pages)
+Multi-source data-ingestion project: Belgian construction permit risk monitoring prototype — Python 3.12 (uv), Pydantic v2, SQLAlchemy 2.0 async, LanceDB, Streamlit
+- Multi-source ingestion pipeline: Gent open data, Brussels CoBAT, Vlaanderen Inzageloket (Playwright headed Chromium for Anubis-protected pages), Geopunt spatial overlays, RvVb precedent corpus
 - Risk engine combining deterministic rules with Claude Sonnet narrator and RvVb precedent retrieval over LanceDB (OpenAI text-embedding-3-large)
 - Geopunt spatial overlays, Lambert-72 geometry, IIOA/MER heuristics, PDF feature extraction (pdfplumber)
 - structlog JSON-in-prod logging, alembic migrations, SQLite WAL, tenacity retry + circuit-breaker, httpx + crawl4ai HTTP stack
