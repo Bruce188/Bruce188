@@ -66,6 +66,15 @@ High-security Android notes app — Kotlin + Compose, defense-in-depth at rest
 - FLAG_SECURE recents blanking, CharArray passphrase hygiene, Detekt-enforced ban on `android.util.Log`
 - Anti-oracle UI: collapses all auth failures to one indistinguishable error
 
+### [debouw](https://github.com/Bruce188/debouw)
+Belgian construction permit risk monitoring prototype — Python 3.12 (uv), Pydantic v2, SQLAlchemy 2.0 async, LanceDB, Streamlit
+- Multi-source ingestion: Gent open data, Brussels CoBAT, Vlaanderen Inzageloket (Playwright headed Chromium for Anubis-protected pages)
+- Risk engine combining deterministic rules with Claude Sonnet narrator and RvVb precedent retrieval over LanceDB (OpenAI text-embedding-3-large)
+- Geopunt spatial overlays, Lambert-72 geometry, IIOA/MER heuristics, PDF feature extraction (pdfplumber)
+- structlog JSON-in-prod logging, alembic migrations, SQLite WAL, tenacity retry + circuit-breaker, httpx + crawl4ai HTTP stack
+- GDPR posture: salted-hash PII, identified User-Agent, polite per-source rates, schema-drift lock tests
+- 314 tests · 80%+ coverage · pipeline-driven workflow (analyze → plan → implement → review → merge)
+
 ## Experience
 
 **Super User** | UPS Belgium - Customs Brokerage Department
