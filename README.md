@@ -3,7 +3,7 @@
 **Student** at Odisee University College
 
 Specializing in **Data & AI**, **System & Business Analysis**, and **System Administration**
-Additional coursework in Networking & Cybersecurity and Advanced Software Development
+Taking up additional coursework in Networking & Cybersecurity and Advanced Software Development
 
 ## Certifications
 
