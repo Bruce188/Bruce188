@@ -90,6 +90,15 @@ Perpetual-futures trading bot for ApexOmni staking-factor optimization — Pytho
 - Production deployment via Docker Compose with health checks, graceful shutdown, and structured logs
 - 210 tests across unit, integration, and security suites
 
+### [pipelinekit](https://github.com/Bruce188/pipelinekit)
+Portable Claude Code overlay — devcontainer-ready, hook-protected, multi-agent pipeline scaffold
+- 26 native skills (analyze → plan → implement → review → ship), 14 specialized agents, 21 production hooks
+- TDD-aware `/pipeline` routes per commit-type prefix (`feat`/`fix`/`refactor` → tdd-test-writer → tdd-implementer; `docs`/`chore`/`ci` skip)
+- Hook protection: conventional-commit validation, attribution stripping, sensitive-file staging block, dangerous-command block, push-to-main block, TDD-order enforcement
+- MCP fleet: context7, serena (semantic), sequential-thinking; LSP stack: pyright, typescript, csharp, gopls, rust-analyzer
+- Supply-chain pinnable via env vars (`SERENA_REF`, `CLAUDE_SKILLS_REF`, `GSTACK_REF`, `CLAUDE_CLI_SHA256`); atomic stage-and-rename install
+- GitHub Codespaces / devcontainer entry point: clone → reopen in container → `claude`
+
 ## Experience
 
 **Super User** | UPS Belgium - Customs Brokerage Department
