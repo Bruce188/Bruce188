@@ -55,7 +55,7 @@ Automated funding rate arbitrage bot for perpetual futures — .NET 8, Clean Arc
 - Unit, integration, and E2E tests (xUnit, Playwright)
 
 ### [Castellum](https://github.com/Bruce188/castellum)
-NATO-track network topology and vulnerability mapper — Spring Boot 3.5 / Java 21 (virtual threads), React 19 + Vite + TypeScript
+Network topology and vulnerability mapper — Spring Boot 3.5 / Java 21 (virtual threads), React 19 + Vite + TypeScript
 - Active nmap scanning (argv-only, injection-hardened) + passive pcap4j/ARP/mDNS/LLDP discovery
 - OT/ICS read-only fingerprinting (Modbus/TCP, DNP3, S7comm, BACnet/IP) with function-code whitelist
 - Threat-intel pipeline: NVD mirror (~250k CVEs), EPSS daily, CISA KEV → composite CVSS×EPSS×KEV×criticality risk score
