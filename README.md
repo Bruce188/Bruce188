@@ -46,13 +46,12 @@ with additional coursework in Networking & Cybersecurity and Advanced Software D
 
 ## Featured Projects
 
-### [FundingRateArb](https://github.com/Bruce188/FundingRateArb)
-Automated funding rate arbitrage bot for perpetual futures — .NET 8, Clean Architecture
-- Monitors funding rate differentials across DEXs (Lighter, Aster) and CEXs (HyperLiquid)
-- Real-time dashboard with SignalR WebSocket updates and KPI tracking
-- Polly resilience pipelines, position health monitoring, and emergency close
-- CI/CD with GitHub Actions, Docker multi-stage builds, and Azure deployment via OIDC
-- Unit, integration, and E2E tests (xUnit, Playwright)
+### [CryptoBargain](https://github.com/Bruce188/CryptoBargain)
+Directional momentum trading bot for perpetual futures — Python, on-chain order signing, real-time ops dashboard
+- Time-series momentum (TSMOM) on Lighter (zero-fee perpetual-futures DEX) — cross-sectional ranking through liquidity/quality gates into a volatility-targeted, net-long/net-short book
+- Hard no-liquidation model: account-wide margin-safety clamp + max-drawdown kill-switch, plus a dynamic governor that can only tighten (never loosen) the gross-exposure cap as diversification falls
+- Read-only ops dashboard — FastAPI + React 19 + Vite + TypeScript, single-origin systemd service, collateral-anchored PnL, token-gated admin, local/LAN bind toggle for home-server / Raspberry Pi
+- Walk-forward backtesting harness validated across market regimes; Playwright-verified UI, systemd-managed live deployment with operator alerting
 
 ### [Castellum](https://github.com/Bruce188/castellum)
 Network topology and vulnerability mapper — Spring Boot 3.5 / Java 21 (virtual threads), React 19 + Vite + TypeScript
