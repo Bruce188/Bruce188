@@ -92,13 +92,12 @@ Perpetual-futures trading bot for ApexOmni staking-factor optimization — Pytho
 - 210 tests across unit, integration, and security suites
 
 ### [pipelinekit](https://github.com/Bruce188/pipelinekit)
-Portable Claude Code overlay — devcontainer-ready, hook-protected, multi-agent pipeline scaffold
-- 45 native skills (analyze → plan → implement → review → ship), 22 specialized agents, 32 hooks (29 harness + 3 git)
-- TDD-aware `/pipeline` routes by feature-name prefix (`feat`/`fix`/`refactor`/`perf`/`test` → tdd-test-writer → tdd-implementer; `docs`/`chore`/`ci` and other non-dev prefixes skip TDD)
-- Hook protection: conventional-commit validation, attribution stripping, sensitive-file staging block, dangerous-command block, push-to-main block, plus advisory TDD-order checks
-- MCP fleet: context7, serena (semantic), sequential-thinking, agentmemory, codegraph, graphify; LSP stack: pyright, typescript, csharp, gopls, rust-analyzer
-- 5 cloud deploy targets (Azure, Vercel, Railway, Render, DigitalOcean) via per-provider agents + ops skills
-- Supply-chain pinnable via env vars (`SERENA_REF`, `CLAUDE_CLI_SHA256`); atomic stage-and-rename install
+Claude Code config kit — guard hooks, a few skills and an installer that overlays `~/.claude` in place, devcontainer-ready
+- v0.1.0 cut the earlier multi-agent `/pipeline` kit down to what current Claude Code doesn't ship natively (plan mode, subagents, `/code-review` and auto-memory replaced the rest)
+- 9 guard hooks: conventional-commit validation, sensitive-file staging block, dangerous-command block, push-to-main block, protected-file edit block, bare-repo marker block, CI secret-env scrub, post-edit formatting, prompt-injection warning on fetched content; plus native git commit-msg and gitleaks pre-commit hooks
+- 7 skills: commit / security / .NET conventions, a single `deploy` skill for Azure, Vercel, Railway, Render and DigitalOcean, Expo, iOS, and a docs-writer that renders self-contained HTML docs
+- MCP: serena installed at a pinned commit (`SERENA_REF`); context7 optional
+- Idempotent installer: merges hook wiring into `settings.json`, prunes stale entries, turns commit/PR attribution off
 - GitHub Codespaces / devcontainer entry point: open in container → post-create runs install.sh → `claude`
 
 ## Experience
